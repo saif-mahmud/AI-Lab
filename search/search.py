@@ -87,17 +87,126 @@ def depthFirstSearch(problem):
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    stack = util.Stack()
+    current_state = [problem.getStartState(), []]
+    visited = set()
+
+    while not problem.isGoalState(current_state[0]) :
+
+        (current_position, moves) = current_state 
+        successors = problem.getSuccessors(current_position)
+        
+        for successor in successors:
+            stack.push((successor[0], moves + [successor[1]]) )
+        
+        while True:
+            if stack.isEmpty() :
+                return None
+            
+            successor = stack.pop() 
+            
+            if successor[0] not in visited :
+                break
+
+        current_state = successor
+        visited.add(successor[0])
+    
+    return current_state[1]
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    visited = []
+    queue = util.Queue()
+
+    queue.push((problem.getStartState(), [], 0))
+    (current_state, moves, cost) = queue.pop()
+
+    visited.append(current_state)
+
+    while not problem.isGoalState(current_state) :
+
+        successors = problem.getSuccessors(current_state)
+
+        for successor in successors :
+            if successor[0] not in visited :
+                next_state = successor[0]
+                next_move = successor[1]
+                next_cost = successor[2]
+
+                queue.push((next_state, moves + [next_move], cost + next_cost))
+                visited.append(next_state)
+        
+        (current_state, moves, cost) = queue.pop()
+
+    return moves
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    priority_queue = util.PriorityQueue()
+    visited = []
+
+    priority_queue.push((problem.getStartState(), [], 0), 0)
+    (current_state, moves, cost) = priority_queue.pop()
+
+    visited.append((current_state, cost))
+
+    while not problem.isGoalState(current_state) :
+        successors = problem.getSuccessors(current_state)
+
+        for successor in successors :
+            is_visited = False
+            total_cost = cost + successor[2]
+
+            for (visited_state, visited_cost) in visited :
+                if (successor[0] == visited_state) and (total_cost >= visited_cost) :
+                    is_visited = True
+                    break
+
+            if not is_visited :
+                priority_queue.push((successor[0], moves + [successor[1]], cost + successor[2]), cost + successor[2])
+                visited.append((successor[0], cost + successor[2]))
+    
+        (current_state, moves, cost) = priority_queue.pop()
+
+    return moves
+
+
+def iterativeDeepeningSearch(problem) :
+    stack = util.Stack()
+    limit = 1
+
+    while True :
+        visited = []
+        stack.push((problem.getStartState(), [], 0))
+
+        (current_state, moves, cost) = stack.pop()
+
+        visited.append(current_state)
+
+        while not problem.isGoalState(current_state) :
+            successors = problem.getSuccessors(current_state)
+
+            for successor in successors :
+                next_state = successor[0]
+                next_move = successor[1]
+                next_cost = successor[2]
+
+                if (not next_state in visited) and (cost + next_cost <= limit) :
+                    stack.push((next_state, moves + [next_move], cost + next_cost))
+                    visited.append(next_state)
+
+            if stack.isEmpty() :
+                break
+
+            (current_state, moves, cost) = stack.pop()
+
+        if problem.isGoalState(current_state) :
+            return moves
+
+        limit += 1
+
 
 def nullHeuristic(state, problem=None):
     """
