@@ -88,15 +88,18 @@ def depthFirstSearch(problem):
     """
     "*** YOUR CODE HERE ***"
     stack = util.Stack()
-    current_state = [problem.getStartState(), []]
-    visited = set()
+    visited = []
+
+    start_state = problem.getStartState()
+    moves = []
+
+    current_state = [start_state, moves]
 
     while not problem.isGoalState(current_state[0]) :
-
-        (current_position, moves) = current_state 
-        successors = problem.getSuccessors(current_position)
+        current_position, moves = current_state 
+        successors_list = problem.getSuccessors(current_position)
         
-        for successor in successors:
+        for successor in successors_list:
             stack.push((successor[0], moves + [successor[1]]) )
         
         while True:
@@ -109,15 +112,16 @@ def depthFirstSearch(problem):
                 break
 
         current_state = successor
-        visited.add(successor[0])
+        visited.append(successor[0])
     
+    #print current_state[1]
     return current_state[1]
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    visited = []
     queue = util.Queue()
+    visited = []
 
     queue.push((problem.getStartState(), [], 0))
     (current_state, moves, cost) = queue.pop()
@@ -126,9 +130,9 @@ def breadthFirstSearch(problem):
 
     while not problem.isGoalState(current_state) :
 
-        successors = problem.getSuccessors(current_state)
+        successors_list = problem.getSuccessors(current_state)
 
-        for successor in successors :
+        for successor in successors_list :
             if successor[0] not in visited :
                 next_state = successor[0]
                 next_move = successor[1]
@@ -153,20 +157,23 @@ def uniformCostSearch(problem):
     visited.append((current_state, cost))
 
     while not problem.isGoalState(current_state) :
-        successors = problem.getSuccessors(current_state)
+        successors_list = problem.getSuccessors(current_state)
 
-        for successor in successors :
+        for successor in successors_list :
             is_visited = False
+
+            next_state = successor[0]
+            next_move = successor[1]
             total_cost = cost + successor[2]
 
             for (visited_state, visited_cost) in visited :
-                if (successor[0] == visited_state) and (total_cost >= visited_cost) :
+                if (next_state == visited_state) and (total_cost >= visited_cost) :
                     is_visited = True
                     break
 
             if not is_visited :
-                priority_queue.push((successor[0], moves + [successor[1]], cost + successor[2]), cost + successor[2])
-                visited.append((successor[0], cost + successor[2]))
+                priority_queue.push((next_state, moves + [next_move], total_cost), total_cost)
+                visited.append((next_state, total_cost))
     
         (current_state, moves, cost) = priority_queue.pop()
 
@@ -186,9 +193,9 @@ def iterativeDeepeningSearch(problem) :
         visited.append(current_state)
 
         while not problem.isGoalState(current_state) :
-            successors = problem.getSuccessors(current_state)
+            successors_list = problem.getSuccessors(current_state)
 
-            for successor in successors :
+            for successor in successors_list :
                 next_state = successor[0]
                 next_move = successor[1]
                 next_cost = successor[2]
@@ -226,3 +233,4 @@ bfs = breadthFirstSearch
 dfs = depthFirstSearch
 astar = aStarSearch
 ucs = uniformCostSearch
+ids = iterativeDeepeningSearch
