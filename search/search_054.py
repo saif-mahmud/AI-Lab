@@ -225,68 +225,7 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    priority_queue = util.PriorityQueue()
-    visited = []
-
-    priority_queue.push((problem.getStartState(), [], 0), 0 + heuristic(problem.getStartState(), problem))
-    (current_state, moves, cost) = priority_queue.pop()
-
-    visited.append((current_state, cost + heuristic(problem.getStartState(), problem)))
-
-    while not problem.isGoalState(current_state) :
-        successors_list = problem.getSuccessors(current_state)
-
-        for successor in successors_list :
-            is_visited = False
-
-            next_state = successor[0]
-            next_move = successor[1]
-            total_cost = cost + successor[2]
-
-            for (visited_state, visited_cost) in visited :
-                if (next_state == visited_state) and (total_cost >= visited_cost) :
-                    is_visited = True
-                    break
-
-            if not is_visited :
-                priority_queue.push((next_state, moves + [next_move], total_cost), total_cost + heuristic(next_state, problem))
-                visited.append((next_state, total_cost))
-    
-        (current_state, moves, cost) = priority_queue.pop()
-
-    return moves
-
-def bestFirstSearch(problem, heuristic = nullHeuristic) :
-    priority_queue = util.PriorityQueue()
-    visited = []
-
-    priority_queue.push((problem.getStartState(), [], heuristic(problem.getStartState(), problem)), heuristic(problem.getStartState(), problem))
-    (current_state, moves, cost) = priority_queue.pop()
-
-    visited.append((current_state, cost))
-
-    while not problem.isGoalState(current_state) :
-        successors_list = problem.getSuccessors(current_state)
-
-        for successor in successors_list :
-            is_visited = False
-
-            next_state = successor[0]
-            next_move = successor[1]
-            heuristic_cost = heuristic(next_state, problem)
-
-            for (visited_state, visited_cost) in visited :
-                if next_state == visited_state :
-                    is_visited = True
-                    break
-
-            if not is_visited :
-                priority_queue.push((next_state, moves + [next_move], heuristic_cost), heuristic_cost)
-                visited.append((next_state, heuristic_cost))
-    
-        (current_state, moves, cost) = priority_queue.pop()
-
-    return moves
+    util.raiseNotDefined()
 
 
 # Abbreviations
@@ -295,4 +234,3 @@ dfs = depthFirstSearch
 astar = aStarSearch
 ucs = uniformCostSearch
 ids = iterativeDeepeningSearch
-bestfs = bestFirstSearch
