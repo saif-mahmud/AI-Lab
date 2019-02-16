@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+%% Welcome to Overleaf!
+%% If this is your first time using LaTeX, it might be worth going through this brief presentation:
+%% https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-1
+
+%% Researchers have been using LaTeX for decades to typeset their papers, producing beautiful, crisp documents in the process. By learning LaTeX, you are effectively following in their footsteps, and learning a highly valuable skill!
+
+%% The \usepackage commands below can be thought of as analogous to importing libraries into Python, for instance. We've pre-formatted this for you, so you can skip right ahead to the title below.
+
+%% Language and font encodings
+\usepackage[spanish,english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+
+%% Title
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{CSE-4111 Artificial Intelligence Lab} \\ [10pt]
+		\huge Constraint Satisfaction Problem : Arc Consistency Algorithms \\
+}
+
+\usepackage{authblk}
+\author[0]{\textbf{Saif Mahmud}\\
+		4th Year 1st Semester, Roll : SH - 054\\}
+
+
+\begin{document}
+\maketitle
+
+\selectlanguage{english}
+\begin{abstract}
+Constraint Satisfaction Problem (CSP) is defined as a triple $ P = (X, D, C) $ where $ X = \{1,...,n\} $ is a set of variables. Each variable $ X_{i} ∈ X $ has a finite domain $ D_{i} ∈ D $ of values that can be assigned to it. Arc consistency is defined as $ X_{i} $ is arc-consistent with respect to another variable $ X_{j} $ if for every value in the current domain $ D_{i} $ there is some value in the domain $ D_{j} $ that satisfies the binary constraint on the arc $ (X_{i} , X_{j}) $. A CSP is arc consistent (AC) if and only if every variable is arc consistent. Arc Consistency is achieved through removing arc inconsistent values until complete consistency or a failure is obtained. In this regard, there are 4 (four) algorithms within the scope of this experiment attaining the goal of removing arc inconsistency from CSPs and they are namely \textit{AC - 1, AC - 2, AC - 3, and AC - 4}.
+\end{abstract}
+\section*{Problem Formulation}
+This experiment will incorporate the implementation of AC algorithms and measuring the performance of the algorithms against defined evaluation metrics. The problem for this experiment is designed in a manner which is analogous to optimization through linear programming. In case of linear programming, an optimal value for each variable is obtained within the bar of given constraints. Here, I have merged the idea of removing inconsistency with finding optimal solution for given variables. Arc Consistency algorithms will eliminate the inconsistent values with respect to the constraints and thus will yield a reduced domain for each variable. If the size of reduced domain is 1 then it is the optimal solution and otherwise I have to search through the reduced domain for obtaining optimal value in reduced search space for linear programming.
+\section*{Input Specification}
+All four algorithms will take the CSP as the argument. Here, the nodes and edges of parameter CSP will be formulated with the following principles :
+\begin{itemize}
+	\item Constraint graphs will be generated with the variables for optimization in linear programming as nodes and binary constraints incorporating two variables as edges between the nodes.
+	\item The domain size will be varied in the range $ [5, 25] $ (suppose) in order to measure the performance of the algorithms in proportion to domain size.
+	\item Each variable will be assigned a domain set with discrete values ranging $ [a, b] $. In this regard, the experiment will include intersecting and non-intersecting domain values to detect the behavior of specific algorithm. Here, the value of a and b will be chosen for a specific variable like $ a = -50 $ and $ b = 150 $ and the values of a and b will be varied for each variable. In fact, each variable will have a domain of bounded range. This formulation of domain values will incorporate bounds propagation within the scope of binary constraints. Therefore, the algorithms will reduce the range of values for each domain and this domain will indicate the optimal solution for variables in linear programming. 
+\end{itemize}
+\section*{Constraint Definition}
+In order to maintain arc consistency, binary constraints can be imposed between the edge of two variables. Moreover, unary global constraints will be used to obtain node consistency. The following is an illustration of the constraints used in optimization technique for linear programming :\\
+
+\textbf{Global Constraints} (Not always used)
+\begin{itemize}
+	\item All variables must assume positive value ($ X_{i}>0 $)
+	\item \textit{Alldiff} : All variable will assume different values at the same time.
+\end{itemize}
+
+\textbf{Binary Constraints} (Let, X and Y are arbitrary variables in CSP)
+\begin{itemize} 
+	\item $ X \pm Y \geq val$ where $ val $ is natural number within range $ [0, 100] $
+	\item $ X \pm Y \leq val$ where $ val $ is natural number within range $ [0, 100] $
+	\item $ X \pm Y = val$ where $ val $ is natural number within range $ [0, 100] $ 
+\end{itemize}
+
+\section*{Evaluation Metric}
+The implementation of algorithms will be evaluated with the following metric in order to show a comparison among them :
+\begin{itemize}
+	\item CPU running time on the same input graph
+	\item Change in performance with a gradual change in the size of input CSP graphs
+	\item Time and Space Complexity of individual implementation of algorithms
+	\item Mean constraint check and revision of nodes (in number) for each algorithm
+\end{itemize}
+
+\end{document}
