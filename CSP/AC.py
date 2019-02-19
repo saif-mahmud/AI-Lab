@@ -1,11 +1,18 @@
+import copy
 import queue
+import time
 
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+from GraphGenerator import graph_generator
 
 class CSP:
     def __init__(self, X: list, D: dict, C: dict):
-        self.X = X
-        self.D = D
-        self.C = C
+        self.X = copy.deepcopy(X)
+        self.D = copy.deepcopy(D)
+        self.C = copy.deepcopy(C)
         self.arcs = list(C.keys())
 
     def AC1(self):
@@ -120,48 +127,108 @@ class CSP:
         print(self.D)
 
 
-X = []
-D = {}
-C = {}
+ac1 = []
+ac2 = []
+ac3 = []
+ac4 = []
 
-tempList = open('D.txt').read().splitlines()
-
-for str in tempList:
-    domain_desc = str.split(':')
-    key = domain_desc[0].strip()
-    val = domain_desc[1].split()
-
-    val = [int(i) for i in val]
-
-    X.append(key)
-    D[key] = val
-
-constraint_list = open('C.txt').read().splitlines()
-
-for c in constraint_list:
-    c_desc = c.split(':')
-
-    c_desc[0] = c_desc[0].strip()
-    nodes = c_desc[0].split(',')
-
-    key = (nodes[0].strip(), nodes[1].strip())
-
-    c_desc[1] = c_desc[1].strip()
-    val = c_desc[1]
-
-    C[key] = val
+no_of_nodes = []
 
 
-print('Variables :')
-print(X)
+for k in range(10, 150):
 
-print('Domains :')
-print(D)
+    print('\nNodes :', k)
+    no_of_nodes.append(k)
 
-print('Contraints :')
-print(C)
+    d_file = 'D' + str(k - 10) + '.txt'
+    c_file = 'C' + str(k - 10) + '.txt'
 
-print('Arc Consistency :')
-csp = CSP(X, D, C)
-csp.AC1()
-csp.result()
+    graph_generator(k, k * 2, d_file, c_file)
+
+    X = []
+    D = {}
+    C = {}
+
+    tempList = open(d_file).read().splitlines()
+
+    for s in tempList:
+        domain_desc = s.split(':')
+        key = domain_desc[0].strip()
+        val = domain_desc[1].split()
+
+        val = list(map(int, val))
+
+        X.append(key)
+        D[key] = val
+
+    constraint_list = open(c_file).read().splitlines()
+
+    for c in constraint_list:
+        c_desc = c.split(':')
+
+        c_desc[0] = c_desc[0].strip()
+        nodes = c_desc[0].split(',')
+
+        key = (nodes[0].strip(), nodes[1].strip())
+
+        c_desc[1] = c_desc[1].strip()
+        val = c_desc[1]
+
+        C[key] = val
+
+
+    print('\nAC1 :')
+    time0 = time.time()
+
+    csp1 = CSP(X, D, C)
+    csp1.AC1()
+    csp1.result()
+
+    time1 = time.time()
+    ac1_time = time1 - time0
+    print('AC1 Elapsed Time :', ac1_time)
+    ac1.append(ac1_time)
+
+    print('\nAC2 :')
+    csp2 = CSP(X, D, C)
+    csp2.AC2()
+    csp2.result()
+
+    time2 = time.time()
+    ac2_time = time2 - time1
+    print('AC2 Elapsed Time :', ac2_time)
+    ac2.append(ac2_time)
+
+    print('\nAC3 :')
+    csp3 = CSP(X, D, C)
+    csp3.AC3()
+    csp3.result()
+
+    time3 = time.time()
+    ac3_time = time3 - time2
+    print('AC3 Elapsed Time :', ac3_time)
+    ac3.append(ac3_time)
+
+    print('\nAC4 :')
+    csp4 = CSP(X, D, C)
+    csp4.AC4()
+    csp4.result()
+
+    time4 = time.time()
+    ac4_time = time4 - time3
+    print('AC4 Elapsed Time :', ac4_time)
+    ac4.append(ac4_time)
+
+
+
+plt.plot(no_of_nodes, ac1, label = 'AC1')
+plt.plot(no_of_nodes, ac2, label = 'AC2')
+plt.plot(no_of_nodes, ac3, label = 'AC3')
+plt.plot(no_of_nodes, ac4, label = 'AC4')
+
+plt.xlabel('# of Nodes')
+plt.ylabel('Elapsed Time')
+plt.legend()
+plt.grid(True)
+
+plt.show()
