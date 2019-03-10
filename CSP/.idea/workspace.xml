@@ -2,11 +2,292 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf1a732-0365-40ff-b521-4a268fd44229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GraphGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AC.py" beforeDir="false" afterPath="$PROJECT_DIR$/AC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C131.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C131.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C132.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C132.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C133.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C133.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C134.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C134.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C135.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C135.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C136.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C136.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C137.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C137.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C138.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C138.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C139.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C139.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C35.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C36.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C37.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C38.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C39.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C40.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C41.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C42.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C43.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C44.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C45.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C46.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C47.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C48.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C49.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C49.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C51.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C51.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C52.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C52.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C53.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C53.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C54.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C54.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C55.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C55.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C56.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C56.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C57.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C57.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C58.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C58.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C59.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C59.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C60.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C60.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C61.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C61.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C62.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C62.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C63.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C63.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C64.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C64.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C65.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C65.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C66.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C66.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C67.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C67.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C68.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C68.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C69.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C69.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C70.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C70.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C71.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C71.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C72.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C72.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C73.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C73.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C74.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C74.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C75.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C75.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C76.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C76.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C77.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C77.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C78.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C78.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C79.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C79.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C80.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C80.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C81.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C81.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C82.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C82.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C83.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C83.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C84.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C84.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C85.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C85.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C86.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C86.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C87.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C87.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C88.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C88.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C89.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C89.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C90.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C90.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C91.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C91.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C92.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C92.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C93.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C93.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C94.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C94.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C95.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C95.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C96.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C96.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C97.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C97.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C98.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C98.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C99.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C99.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D131.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D131.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D132.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D132.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D133.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D133.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D134.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D134.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D135.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D135.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D136.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D136.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D137.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D137.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D138.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D138.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D139.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D139.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D35.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D35.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D36.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D36.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D37.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D37.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D38.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D38.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D39.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D39.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D40.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D40.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D41.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D41.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D42.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D42.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D43.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D43.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D44.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D44.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D45.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D46.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D46.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D47.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D47.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D48.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D49.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D49.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D51.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D51.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D52.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D52.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D53.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D53.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D54.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D54.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D55.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D55.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D56.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D56.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D57.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D57.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D58.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D58.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D59.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D59.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D60.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D60.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D61.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D61.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D62.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D62.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D63.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D63.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D64.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D64.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D65.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D65.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D66.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D66.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D67.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D67.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D68.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D68.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D69.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D69.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D70.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D70.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D71.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D71.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D72.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D72.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D73.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D73.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D74.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D74.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D75.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D75.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D76.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D76.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D77.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D77.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D78.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D78.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D79.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D79.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D80.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D80.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D81.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D81.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D82.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D82.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D83.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D83.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D84.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D84.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D85.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D85.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D86.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D86.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D87.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D87.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D88.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D88.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D89.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D89.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D90.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D90.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D91.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D91.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D92.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D92.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D93.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D93.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D94.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D94.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D95.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D95.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D96.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D96.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D97.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D97.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D98.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D98.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D99.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D99.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphGenerator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +298,21 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AC_ALGO$AC.coverage" NAME="AC Coverage Results" MODIFIED="1550069594188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AC_ALGO$Backtracking.coverage" NAME="Backtracking Coverage Results" MODIFIED="1550113947579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSP$AC.coverage" NAME="AC Coverage Results" MODIFIED="1550503603201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSP$AC.coverage" NAME="AC Coverage Results" MODIFIED="1551259023762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1637871655">
@@ -55,68 +350,72 @@
     <session id="1729776287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GraphGenerator" value="30" />
-          <entry key="Python Console" value="584" />
-          <entry key="py" value="3669" />
+          <entry key="Python Console" value="686" />
+          <entry key="py" value="4508" />
+          <entry key="test" value="29" />
           <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="74" />
-          <entry key="Python" value="4283" />
+          <entry key="Python" value="5253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
-          <entry key="txt" value="14" />
+          <entry key="png" value="2" />
+          <entry key="py" value="7" />
+          <entry key="tex" value="1" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="5" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CSP" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AC.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GraphGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="221" selection-start-line="221" selection-end-line="221" />
+            <state relative-caret-position="-255">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1550505758015" expanded="true" signature="162:167" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="370:1251" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="1245:1251" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="1265:1274" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="1722:2713" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="3105:3111" ph="..." />
-                <marker date="1550505758015" expanded="true" signature="3152:3416" ph="..." />
+                <marker date="1551260069222" expanded="true" signature="79:81" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GraphGenerator.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ACalgo_054.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="-3862">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
-                <marker date="1550503331024" expanded="true" signature="65:67" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,6 +438,8 @@
       <find>val</find>
       <find>UniversalDict</find>
       <find>str</find>
+      <find>nodes</find>
+      <find>199</find>
     </findStrings>
     <replaceStrings>
       <replace>value</replace>
@@ -156,10 +457,12 @@
         <option value="$PROJECT_DIR$/utils_054.py" />
         <option value="$PROJECT_DIR$/Solution_054.py" />
         <option value="$PROJECT_DIR$/X.txt" />
-        <option value="$PROJECT_DIR$/D.txt" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/C.txt" />
-        <option value="$PROJECT_DIR$/GraphGenerator.py" />
+        <option value="$PROJECT_DIR$/D.txt" />
         <option value="$PROJECT_DIR$/AC.py" />
+        <option value="$PROJECT_DIR$/GraphGenerator.py" />
+        <option value="$PROJECT_DIR$/ACalgo_054.py" />
       </list>
     </option>
   </component>
@@ -191,6 +494,11 @@
               <item name="CSP" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CSP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSP" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,7 +510,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,7 +524,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AC">
+  <component name="RunManager" selected="Python.ACalgo_054">
     <configuration name="AC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AC_ALGO" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,22 +547,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Backtracking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ACalgo_054" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AC_ALGO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ACalgo_054.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -265,25 +570,6 @@
       <module name="AC_ALGO" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GraphGenerator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LabExam1_054" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AC_ALGO" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
@@ -293,7 +579,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabExam1_054.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GraphGenerator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,20 +632,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AC_ALGO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.AC" />
-      <item itemvalue="Python.Backtracking" />
-      <item itemvalue="Python.LabExam1_054" />
       <item itemvalue="Python.csp" />
       <item itemvalue="Python.GraphGenerator" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.ACalgo_054" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ACalgo_054" />
         <item itemvalue="Python.AC" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.GraphGenerator" />
         <item itemvalue="Python.csp" />
-        <item itemvalue="Python.LabExam1_054" />
-        <item itemvalue="Python.Backtracking" />
       </list>
     </recent_temporary>
   </component>
@@ -387,13 +695,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="25" width="1321" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17490196" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24878049" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.15607843" />
+      <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.14666666" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008157" side_tool="true" weight="0.14666666" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8760196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.553018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,13 +712,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3360522" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4649266" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.40946168" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32941177" />
-      <window_info anchor="right" x="0" y="0" width="291" height="543" id="Documentation" order="4" side_tool="true" weight="0.32941177" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49755302" weight="0.68784314" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32941177" />
+      <window_info anchor="right" x="0" y="0" width="291" height="543" id="Documentation" order="5" sideWeight="0.502447" side_tool="true" weight="0.47686276" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,24 +749,11 @@
         <state relative-caret-position="-7854" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/X.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/X.txt" />
     <entry file="file://$PROJECT_DIR$/Backtracking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
           <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -476,55 +772,123 @@
     <entry file="file://$PROJECT_DIR$/D3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/D4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/D1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Solution_054.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2451">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D62.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C34.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C18.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fig1.png" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fig5.png" />
+    <entry file="file://$PROJECT_DIR$/D.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/Report_054.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2003">
+          <caret line="253" column="37" selection-start-line="253" selection-start-column="37" selection-end-line="253" selection-end-column="37" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GraphGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="-255">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <marker date="1550503331024" expanded="true" signature="65:67" ph="..." />
+            <marker date="1551260069222" expanded="true" signature="79:81" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AC.py">
+    <entry file="file://$PROJECT_DIR$/ACalgo_054.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        <state relative-caret-position="-3862">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1550505758015" expanded="true" signature="162:167" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="370:1251" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="1245:1251" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="1265:1274" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="1722:2713" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="3105:3111" ph="..." />
-            <marker date="1550505758015" expanded="true" signature="3152:3416" ph="..." />
           </folding>
         </state>
       </provider>

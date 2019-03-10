@@ -1,16 +1,22 @@
 import random
 
-def graph_generator(nodes, edges, d_file, c_file):
+def graph_generator(nodes, edges, domain_size, d_file, c_file):
 
-    constraint_pool = ['x > y', 'x < y', 'x < y', 'x > y', 'x + y < 5', 'x + y > 5', 'x - y > 2', 'x - y < 2',
-                       'x == y', 'x == y', 'x != y', 'x != y', 'x < y**2', 'x > y**2']
+
+    constraint_pool = ['x > y', 'x < y', 'x < y', 'x > y', 'x + y < 300', 'x + y > 300', 'x - y > 50', 'x - y < 50',
+                       'x != y', 'x != y', 'x**3 > y**2', 'x**3 < y**2', 'x > y**0.5', 'x < y**0.5']
+
+    # 'x**2 + y**2 > 36', 'x**2 + y**2 < 36',
+    #                    , '(x + y) / 2 > (x - y)',
+    #                    , 'x**2 + y**2 > 225', 'x**2 + y**2 < 225',
+    #                    '(x * y) > 100', '(x * y) < 100',
 
     D = open(d_file, 'w')
     C = open(c_file, 'w')
 
     for i in range(nodes):
 
-        domain = random.sample(range(100), random.randrange(75))
+        domain = random.sample(range(25, 250), random.randrange(25, domain_size))
 
         D.write(str(i) + ' : ')
 

@@ -1,12 +1,12 @@
 import copy
 import queue
+import random
 import time
 
-import matplotlib
 import matplotlib.pyplot as plt
-import numpy as np
 
-from GraphGenerator import graph_generator
+from GraphGenerator_054 import graph_generator
+
 
 class CSP:
     def __init__(self, X: list, D: dict, C: dict):
@@ -133,17 +133,36 @@ ac3 = []
 ac4 = []
 
 no_of_nodes = []
+no_of_edges = []
+D_size = []
 
 
-for k in range(10, 150):
+for k in range(10, 250):
 
     print('\nNodes :', k)
-    no_of_nodes.append(k)
+
+    #n = 2
+    n = random.randrange(2, 4)
+
+    vertex = k
+    arc = n * k
+
+    if arc % 2 == 1:
+        arc = arc - 1
+
+    domain_size = random.randrange(75, 126)
+
+    no_of_nodes.append(vertex)
+    no_of_edges.append(arc)
+    D_size.append(domain_size)
 
     d_file = 'D' + str(k - 10) + '.txt'
     c_file = 'C' + str(k - 10) + '.txt'
 
-    graph_generator(k, k * 2, d_file, c_file)
+    # d_file = 'D.txt'
+    # c_file = 'C.txt'
+
+    graph_generator(vertex, arc, domain_size, d_file, c_file)
 
     X = []
     D = {}
@@ -176,6 +195,8 @@ for k in range(10, 150):
 
         C[key] = val
 
+    print(CSP(X, D, C).AC3())
+
 
     print('\nAC1 :')
     time0 = time.time()
@@ -185,7 +206,7 @@ for k in range(10, 150):
     csp1.result()
 
     time1 = time.time()
-    ac1_time = time1 - time0
+    ac1_time = (time1 - time0) * 1000
     print('AC1 Elapsed Time :', ac1_time)
     ac1.append(ac1_time)
 
@@ -195,7 +216,7 @@ for k in range(10, 150):
     csp2.result()
 
     time2 = time.time()
-    ac2_time = time2 - time1
+    ac2_time = (time2 - time1) * 1000
     print('AC2 Elapsed Time :', ac2_time)
     ac2.append(ac2_time)
 
@@ -205,7 +226,7 @@ for k in range(10, 150):
     csp3.result()
 
     time3 = time.time()
-    ac3_time = time3 - time2
+    ac3_time = (time3 - time2) * 1000
     print('AC3 Elapsed Time :', ac3_time)
     ac3.append(ac3_time)
 
@@ -215,10 +236,26 @@ for k in range(10, 150):
     csp4.result()
 
     time4 = time.time()
-    ac4_time = time4 - time3
+    ac4_time = (time4 - time3) * 1000
     print('AC4 Elapsed Time :', ac4_time)
     ac4.append(ac4_time)
 
+
+with open('AC1.txt', 'w') as ac1_out:
+    for item in ac1:
+        ac1_out.write("%s\n" % item)
+
+with open('AC2.txt', 'w') as ac2_out:
+    for item in ac2:
+        ac2_out.write("%s\n" % item)
+
+with open('AC3.txt', 'w') as ac3_out:
+    for item in ac3:
+        ac3_out.write("%s\n" % item)
+
+with open('AC4.txt', 'w') as ac4_out:
+    for item in ac4:
+        ac4_out.write("%s\n" % item)
 
 
 plt.plot(no_of_nodes, ac1, label = 'AC1')
@@ -231,4 +268,5 @@ plt.ylabel('Elapsed Time')
 plt.legend()
 plt.grid(True)
 
+plt.savefig('fig7.png', bbox_inches='tight')
 plt.show()
